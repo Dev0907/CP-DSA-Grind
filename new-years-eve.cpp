@@ -12,3 +12,6 @@ int main(){
 
     //when k=1, max number is n itself
     //when k>1, max number can be sjown as 2^m -1
+
+
+// explain the problem properly 
