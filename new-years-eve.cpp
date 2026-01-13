@@ -16,4 +16,9 @@ int main(){
     // if k=1, we take the max possible,i.e., n
     // if k>1, we take the max possible number such that all bits are set to 1
     // (eg. if k=2, we can take 1 and 2 to get 3(11), if k=3, we can take 1,2,3 to get 00, but we can also take 1,2,4 to get 7(111))
+    // so by this logiv, a = 1
+    // a=1*2+1=3
+    // a=3*2+1=7
+    // a=7*2+1=15
+    // a=15*2+1=31
     // Googled to find xor properties to confirm this
